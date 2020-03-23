@@ -1,1 +1,1 @@
-web: gunicorn geomagnetic-thunder.py:app
+web: gunicorn geomagnetic-thunder:app

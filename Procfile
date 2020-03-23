@@ -1,1 +1,1 @@
-web: gunicorn geomagnetic-thunder:app
+web: gunicorn --chdir Geomagnetic-Thunder geomagnetic-thunder:app

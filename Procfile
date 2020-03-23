@@ -1,1 +1,1 @@
-web: gunicorn --chdir Geomagnetic-Thunder geomagnetic-thunder:app
+web: gunicorn "flaskherokudemo:create_app()"

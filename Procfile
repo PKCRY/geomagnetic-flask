@@ -1,1 +1,1 @@
-web: gunicorn "flaskherokudemo:create_app()"
+web: gunicorn "__init__:create_app()"

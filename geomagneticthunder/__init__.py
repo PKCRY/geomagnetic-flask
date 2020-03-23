@@ -14,6 +14,6 @@ def create_app(test_config=None):
 
     @app.route('/')
     def index():
-        return 'Flask Heroku Demo'
+        return 'Geomagnetic thunder game'
 
     return app
